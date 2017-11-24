@@ -5,6 +5,7 @@ import Home from './home';
 import About from "./about";
 import Contact from "./contact";
 import Projects from "./projects";
+import Skills from "./skills";
 import { Provider } from 'redux-zero/react';
 import store from './store';
 import registerServiceWorker from './registerServiceWorker';
@@ -14,7 +15,8 @@ const Index = () => (
    <Provider store={store}>
       <HashRouter>
          <Switch>
-         <Route path="/projects" component={Projects} />
+            <Route path="/skills" component={Skills} />
+            <Route path="/projects" component={Projects} />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
             <Route path="/" component={Home} />

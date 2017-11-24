@@ -2,7 +2,7 @@
   "name": "portafolio-kdemo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://KelyKley/github.io/kelykley.github.io",
+  "homepage": "https://KelyKley.github.io/Portafolio-FINAL",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "bootstrap-vertical-tabs": "^1.2.2",
@@ -21,6 +21,6 @@
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "gh-pages": "^1.0.0"
+    "gh-pages": "^1.1.0"
   }
 }

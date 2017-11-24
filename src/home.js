@@ -9,14 +9,15 @@ const Home = () => {
             <div className="container dad" >
                 <div className="row son" >
                     <div className="home col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <NavLink to="/" className="grow vertical-tab-1 col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                                <p className="tab-title">1</p> 
-                                <p className="rotate">Home</p>
-                            </NavLink>
                             <NavLink to="/about" className="grow vertical-tab-2 col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                                <p className="tab-title">2</p> 
+                                <p className="tab-title">1</p> 
                                 <p className="rotate">About</p>
                             </NavLink>
+                            <NavLink to="/" className="grow vertical-tab-1 col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                <p className="tab-title">2</p> 
+                                <p className="rotate">Skills</p>
+                            </NavLink>
+                            
                             <NavLink to="/projects" className="grow vertical-tab-3 col-lg-4 col-md-4 col-sm-4 col-xs-4">
                                 <p className="tab-title">3</p> 
                                 <p className="rotate">Projects</p>

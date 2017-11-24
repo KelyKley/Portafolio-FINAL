@@ -11,9 +11,12 @@ style="float: right;"*/
 }
 
 .dad {
-  /*background-image: url("https://bufiles.blob.core.windows.net/co3613/vertical_menu/5.jpg");*/
   width: 100%;
   padding: 0;
+  display: inline-flex;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  
 }
 .son {
   float: left;
@@ -21,7 +24,7 @@ style="float: right;"*/
 
 .grow {
   text-decoration: none;
-  padding: 5px 5px 5px 5px;
+  padding: 5px -1px 5px 5px;
   height: 100vh;
   width: 25vw;
   float: left;
@@ -126,7 +129,7 @@ style="float: right;"*/
   text-decoration: none;
   padding: 5px 5px 5px 5px;
   height: 100vh;
-  width: 73vw;
+  width: 77vw;
   float: left;
   position: relative;
   transition: width 0.5s;
@@ -136,13 +139,10 @@ style="float: right;"*/
 }
 
 /*CONTACT*/
+
+
+
 /*
-#contact {
-  padding: 10px 250px;
-  text-align: center;
-  font-family: "Shadows Into Light", cursive;
-  font-size: 30px;
-}
 #contact h2 {
   font-size: 55px;
 }*/
@@ -234,7 +234,7 @@ style="float: right;"*/
   text-transform: uppercase;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
-  padding: 10%;
+  padding-top: 5%;
 }
 
 .introduction{
@@ -242,4 +242,96 @@ style="float: right;"*/
   font-size: 1.2em;
   margin: 1% 8%;
   text-align: center;
+}
+
+/**************IMG -ABOUT***************/
+.img-circle{
+  border-radius: 60%;
+  width: 30%;
+  margin: 0 35%;
+}
+
+.text-center{
+  text-align: center;
+}
+
+
+/************************** ROW*************/
+/*.row {
+  margin-right: -15px;
+  margin-top: -15px;
+  margin-left: -30px;
+}*/
+
+
+
+
+/************************* CONTACT ME*************************/
+/*Contact sectiom*/
+.content-header{
+  font-family: 'Oleo Script', cursive;
+  color:#fcc500;
+  font-size: 45px;
+}
+
+.section-content{
+  text-align: center; 
+
+}
+#contact{
+  width: 100vw;
+  height: 400px;
+}
+
+.contact-section .col-md-6{
+  width: 50%;
+}
+
+label{
+  font-size: 1.3em;
+  line-height: 1em;
+  font-weight: normal;
+}
+.form-control{
+  font-size: 1.3em;
+  color: #080808;
+}
+textarea.form-control {
+    height: 85px;
+   /* margin-top: px;*/
+}
+
+.submit{
+  font-size: 1.1em;
+  float: right;
+  width: 169px;
+  background-color: #907e7e;
+  color: #fff;
+}
+
+#contact label{
+  font-size: 1.3em;
+  color: #907e7e;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  padding: 5%;
+}
+
+.container-form{
+  padding: 0 11%;
+}
+
+
+/********************HOME***********************/
+.home{
+  display: inline-flex;
+}
+
+.container {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: 0;
+  margin-left: 0;
 }
