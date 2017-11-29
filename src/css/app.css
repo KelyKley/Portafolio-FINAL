@@ -1,5 +1,4 @@
-/*style="width: 100%; padding: 0;"
-style="float: right;"*/
+
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,100,300,600,700);
 
 * {
@@ -8,12 +7,34 @@ style="float: right;"*/
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  outline: 1px solid red;
 }
+
+.vertical-tab-1 {
+  background: url("https://bufiles.blob.core.windows.net/co3613/vertical_menu/7.jpg")
+    center center no-repeat;
+}
+
+.vertical-tab-2 {
+  background: url("https://static.pexels.com/photos/5299/black-and-white-apple-iphone-smartphone.jpg")
+  center center;
+}
+
+.vertical-tab-3 {
+  background: url("https://ak3.picdn.net/shutterstock/videos/23203693/thumb/1.jpg")
+    center center;
+}
+
+.vertical-tab-4 {
+  background: url("https://scp-law.com/wp-content/uploads/2017/06/pexels-photo-296115.jpeg")
+    center center;
+}
+
 
 .dad {
   width: 100%;
   padding: 0;
-  display: inline-flex;
+  /*display: inline-flex;*/
   overflow-x: hidden;
   overflow-y: hidden;
   
@@ -48,26 +69,6 @@ style="float: right;"*/
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
 }
-
-.vertical-tab-1 {
-  background: url("https://bufiles.blob.core.windows.net/co3613/vertical_menu/7.jpg")
-    center center no-repeat;
-}
-
-.vertical-tab-2 {
-  background: url("https://4.bp.blogspot.com/-wUGs2vRt0-0/VpJvQOM1oOI/AAAAAAAB8FU/1aXGIg3yW0Y/s0/Tablet_Headphones_Coffe_sm.jpg");
-}
-
-.vertical-tab-3 {
-  background: url("https://raw.githubusercontent.com/KelyKley/portafolio-k/master/public/img/2.jpg")
-    center center;
-}
-
-.vertical-tab-4 {
-  background: url("https://github.com/KelyKley/portafolio-k/blob/master/public/img/4.jpg?raw=true")
-    center center;
-}
-
 .rotate {
   transform: rotate(-90deg);
   -webkit-transform: rotate(-90deg);
@@ -88,6 +89,9 @@ style="float: right;"*/
   .tab-title {
     font-size: 1.6em;
   }
+  .introduction{
+    font-size: 2em;
+  }
 }
 @media screen and (max-width: 767px) {
   .rotate {
@@ -97,6 +101,9 @@ style="float: right;"*/
 @media screen and (max-width: 767px) {
   .tab-title {
     font-size: 1.25em;
+  }
+  .introduction{
+    font-size: 1.5em;
   }
 }
 @media screen and (max-width: 500px) {
@@ -108,6 +115,19 @@ style="float: right;"*/
   .tab-title {
     font-size: 0.75em;
   }
+  .introduction{
+    font-size: 1.2em !important;
+  }
+  .img-circle {
+    border-radius: 60%;
+    width: 56% !important;
+    margin: 0 auto;
+  }
+ .titanic{
+  width: 16vw !important;  
+  margin-top: 13% !important;
+  margin-left: 12% !important;
+ }
 }
 
 #about .rotateAbout,
@@ -150,7 +170,7 @@ style="float: right;"*/
   position: relative;
   height: 3em;
   width: 13.5em;
-  margin: 150px auto;
+  margin: 9% auto;
 }
 
 .social li {
@@ -200,6 +220,11 @@ style="float: right;"*/
   left: 0;
   top: 0%;
 }
+.codepen {
+  background: black;
+  right: 3%;
+  top: 0%;
+}
 
 .twitter {
   background: #1a9ec4;
@@ -228,7 +253,7 @@ style="float: right;"*/
 
 /***********                     COLOR LETTER = 907e7e                  **************/
 .tab-about{
-  font-size: 1.8em;
+  font-size: 2.1em;
   color: #907e7e;
   text-align: center;
   text-transform: uppercase;
@@ -236,19 +261,20 @@ style="float: right;"*/
   font-weight: 400;
   padding-top: 5%;
 }
-
 .introduction{
-  font-family: 'Gruppo', cursive;
-  font-size: 1.2em;
+  font-family: "Josefin Sans", sans-serif;
   margin: 1% 8%;
   text-align: center;
+  color: black ;
+  font-size: 1.5em;
 }
+
 
 /**************IMG -ABOUT***************/
 .img-circle{
   border-radius: 60%;
   width: 30%;
-  margin: 0 35%;
+  margin: 0 auto;
 }
 
 .text-center{
@@ -316,7 +342,7 @@ textarea.form-control {
   text-transform: uppercase;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
-  padding: 5%;
+  padding: 3%;
 }
 
 .container-form{
@@ -327,6 +353,7 @@ textarea.form-control {
 /********************HOME***********************/
 .home{
   display: inline-flex;
+  padding-right: 0 !important;
 }
 
 .container {
@@ -334,4 +361,20 @@ textarea.form-control {
   padding-left: 0;
   margin-right: 0;
   margin-left: 0;
+}
+
+/**/
+.titanic {
+	font-size: 144px;
+	font-weight: 700;
+	font-family: 'Raleway', sans-serif;
+	opacity: 1;
+	position: absolute;
+  top: 0;
+  width: 12vw;
+  margin-top: 9%;
+  margin-left: 9%;
+  left: 0;
+	transform: translate(-50%, -50%);
+	color: rgb(228, 17, 17);
 }
