@@ -24,7 +24,7 @@ const Home = () => {
                                 <p className="tab-title">1</p> 
                                 <p className="rotate">About</p>
                             </NavLink>
-                            <NavLink to="/" className="grow vertical-tab-1 col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                            <NavLink to="/skills" className="grow vertical-tab-1 col-lg-3 col-md-3 col-sm-3 col-xs-3">
                                 <p className="tab-title">2</p> 
                                 <p className="rotate">Skills</p>
                             </NavLink>
