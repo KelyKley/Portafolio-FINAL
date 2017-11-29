@@ -7,7 +7,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
 }
 
 .vertical-tab-1 {
@@ -500,7 +500,7 @@ textarea.form-control {
   -moz-box-shadow: 1px 1px 2px #e6e6e6;
   box-shadow: 1px 1px 2px #e6e6e6;
   cursor: default;
-  background: #fff url(https://tympanus.net/Tutorials/OriginalHoverEffects/images/bgimg.jpg) no-repeat center center;
+  background: #fff url(https://i.pinimg.com/736x/bd/3e/c7/bd3ec7991aedf84f28c034c50d3b8e05.jpg) no-repeat center center;
 }
 .view .mask,.view .content {
   width: 300px;
@@ -513,6 +513,8 @@ textarea.form-control {
 .view img {
   display: block;
   position: relative;
+  width: 300px;
+  height: 200px;
 }
 .view h2 {
   text-transform: uppercase;
@@ -555,3 +557,4 @@ textarea.form-control {
     width:680px;
     margin: 0 auto;
 }*/
+

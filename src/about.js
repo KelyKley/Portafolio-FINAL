@@ -29,7 +29,7 @@ const About = () => {
                 <div id="aboutme" className="row" >
                     <div className="col-lg-9 col-md-9 col-sm-9 col-xs-9">
                             <div  className="grow">
-                                <p className="tab-about text-center">About me</p> 
+                                <p className="tab-about text-center">Sobre mi</p> 
                                 <div className="">
                                     <h1 className="text-center"><img className="img-circle img-responsive" src ="https://raw.githubusercontent.com/KelyKley/Portafolio-FINAL/master/public/img/me.png"/></h1>
                                 </div>
