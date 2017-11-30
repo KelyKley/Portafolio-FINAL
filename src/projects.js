@@ -4,7 +4,7 @@ import "./css/app.css";
 import { NavLink} from 'react-router-dom';
 
 
-import Kely from "./kely.png";
+import Kely from "./pink.png";
 
 const Link = () => {
     return(

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { connect } from "redux-zero/react";
 import "./css/app.css";
 import { NavLink} from 'react-router-dom';
-import Kely from "./kely.png";
+import Kely from "./pink.png";
 
 const Link = () => {
     return(
@@ -74,7 +74,7 @@ const Contact = () => {
                                     <li className="twitter"><a href="#"><i className="fa fa-file-text-o fa-3x"></i></a></li>
                                     <li className="google"><a href="#"><i className="fa fa-google-plus fa-3x"></i></a></li>
                                     <li className="linkedin"><a href="#"><i className="fa fa-linkedin fa-3x"></i></a></li>
-                                    <li className="codepen"><a href="#"><i className="fa fa-github fa-3x"></i></a></li>
+                                    <li className="codepen"><a href="#"><i className="fa fa-codepen fa-3x"></i></a></li>
                                 </ul>
                             </div>
                     </div>
