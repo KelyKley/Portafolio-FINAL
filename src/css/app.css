@@ -548,6 +548,7 @@ textarea.form-control {
   display: inline-block;
   text-decoration: none;
   padding: 7px 14px;
+  margin: 5px;
   background: #000;
   color: #fff;
   text-transform: uppercase;

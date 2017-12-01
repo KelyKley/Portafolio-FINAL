@@ -39,7 +39,8 @@ const Projects = () => {
                     <div class="mask">
                         <h2>RVSP</h2>
                         <p>HTML + REACT + CSS + BOOTSTRAP</p>
-                        <a href="#" class="info">Demo</a>
+                        <a href="https://github.com/KelyKley/MVC-Invitacion" class="info">Demo</a>
+                        <a href="#" class="info">Code</a>
                     </div>
                 </div>
                 <div class="view view-tenth">
@@ -56,6 +57,7 @@ const Projects = () => {
                         <h2>Car</h2>
                         <p>HTML + REACT + CSS + BOOTSTRAP</p>
                         <a href="#" class="info">Demo</a>
+                        <a href="#" class="info">Code</a>
                     </div>
                 </div>
                 <div class="view view-tenth">
@@ -63,7 +65,8 @@ const Projects = () => {
                     <div class="mask">
                         <h2>Courses</h2>
                         <p>HTML + REACT + CSS + BOOTSTRAP</p>
-                        <a href="#" class="info">Demo</a>
+                        <a href="https://kelykley.github.io/React-app-course/" class="info">Demo</a>
+                        <a href="https://github.com/KelyKley/React-app-course" class="info">Code</a>
                     </div>
                 </div>
                 <div class="view view-tenth">
@@ -71,7 +74,8 @@ const Projects = () => {
                     <div class="mask">
                         <h2>Lyft</h2>
                         <p>HTML + REACT + CSS + BOOTSTRAP</p>
-                        <a href="#" class="info">Demo</a>
+                        <a href="https://gabiprds93.github.io/Proyecto-Lyft" class="info">Demo</a>
+                        <a href="https://github.com/KelyKley/Proyecto-Lyft" class="info">Code</a>
                     </div>
                 </div>
                 <div class="view view-tenth">
