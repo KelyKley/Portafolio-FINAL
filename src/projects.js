@@ -40,7 +40,7 @@ const Projects = () => {
                         <h2>RVSP</h2>
                         <p>HTML + REACT + CSS + BOOTSTRAP</p>
                         <a href="https://github.com/KelyKley/MVC-Invitacion" class="info">Demo</a>
-                        <a href="#" class="info">Code</a>
+                        <a href="https://KelyKley.github.io/MVC-Invitacion" class="info">Code</a>
                     </div>
                 </div>
                 <div class="view view-tenth">
@@ -49,6 +49,7 @@ const Projects = () => {
                         <h2>Score Board</h2>
                         <p>HTML + REACT + CSS + BOOTSTRAP</p>
                         <a href="#" class="info">Demo</a>
+                        <a href="#" class="info">Code</a>
                     </div>
                 </div>
                 <div class="view view-tenth">
@@ -84,6 +85,7 @@ const Projects = () => {
                         <h2>Shop Sushi</h2>
                         <p>HTML + REACT + CSS + BOOTSTRAP</p>
                         <a href="#" class="info">Demo</a>
+                        <a href="#" class="info">Code</a>
                     </div>
                 </div>
             </div>
