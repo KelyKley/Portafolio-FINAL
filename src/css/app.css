@@ -7,7 +7,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /*outline: 1px solid red;*/
+  outline: 1px solid red;
 }
 
 .vertical-tab-1 {
@@ -35,12 +35,14 @@
   width: 100%;
   padding: 0;
   /*display: inline-flex;*/
-  overflow-x: hidden;
-  overflow-y: hidden;
+  /*overflow-x: hidden;
+  overflow-y: hidden;*/
+  overflow-y: overlay;
   
 }
 .son {
   float: left;
+  position: fixed;
 }
 
 .grow {
@@ -163,7 +165,7 @@ a:hover{
   transition: width 0.5s;
   -webkit-transition: width 0.5s;
   text-align: left;
-  overflow: hidden;
+ /* overflow: hidden;*/
 }
 
 /*CONTACT*/
@@ -373,21 +375,28 @@ textarea.form-control {
 
 /**/
 .titanic {
+  z-index: 1000;
 	font-size: 144px;
 	font-weight: 700;
 	font-family: 'Raleway', sans-serif;
 	opacity: 1;
-	position: absolute;
-  top: 0;
+  position: absolute;
+  top: 2vh;
   width: 12vw;
   margin-top: 9%;
-  margin-left: 9%;
+  margin-left: 12vw;
   left: 0;
 	transform: translate(-50%, -50%);
 	color: rgb(228, 17, 17);
 }
+.logo-eve{
 
+  top: 10vh !important;
 
+}
+.aboutme-scroll{
+  margin-left: 25vw;
+}
 
 
 

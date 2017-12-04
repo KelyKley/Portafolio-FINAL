@@ -7,7 +7,7 @@ import Kely from "./pink.png";
 const Link = () => {
     return(
         <div>
-            <NavLink to="/">
+            <NavLink to="/" className="logo-eve">
                 <img src={Kely} class="titanic naked"/>
             </NavLink>
         </div>
