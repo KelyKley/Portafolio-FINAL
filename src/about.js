@@ -7,9 +7,9 @@ import Kely from "./pink.png";
 const Link = () => {
     return(
         <div>
-            <NavLink to="/">
-                <img src={Kely} class="titanic naked"/>
-            </NavLink>
+            <NavLink to="/" className="logo-eve">
+            <img src={Kely} class="titanic naked"/>
+        </NavLink>
         </div>
     );
 }
@@ -38,6 +38,7 @@ const About = () => {
                                     <p className="text-justify introduction">Soy egresada de Laboratoria. Responsable y autodidacta con
                                     habilidades para el trabajo en equipo, gracias al manejo de laMetodología Agile. Con mucho
                                     interés en el sector digital y tecnológico.</p>
+                                    <p className="text-justify introduction">Con conocimientos en Html, CSS , Javascript, Jquery, ReactJs y frameworks como bootstrap.</p>
                                     <p className="text-justify introduction">Crear, construir y diseñar son mis mas grandes pasiones.</p>
                                 </div>
                                 

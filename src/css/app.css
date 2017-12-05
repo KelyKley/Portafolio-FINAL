@@ -98,10 +98,10 @@ a:hover{
   .tab-title {
     font-size: 1.6em;
   }
-  /*
+  
   .introduction{
     font-size: 2em;
-  }*/
+  }
 }
 @media screen and (max-width: 767px) {
   .rotate {
@@ -111,10 +111,10 @@ a:hover{
 @media screen and (max-width: 767px) {
   .tab-title {
     font-size: 1.25em;
-  }/*
+  }
   .introduction{
     font-size: 1.5em;
-  }*/
+  }
 }
 @media screen and (max-width: 500px) {
   .rotate {
@@ -124,7 +124,7 @@ a:hover{
 @media screen and (max-width: 500px) {
   .tab-title {
     font-size: 0.75em;
-  }/*
+  }
   .introduction{
     font-size: 1.2em !important;
   }
@@ -137,7 +137,7 @@ a:hover{
   width: 16vw !important;  
   margin-top: 13% !important;
   margin-left: 12% !important;
- }*/
+ }
 }
 
 #about .rotateAbout,
@@ -315,7 +315,7 @@ a:hover{
 
 }
 #contact{
-  width: 100vw;
+  /*width: 100vw;*/
   height: 400px;
 }
 
@@ -505,9 +505,9 @@ textarea.form-control {
 
 
 .view {
-  width: 300px;
+  /*width: 300px;*/
   height: 200px;
-  margin: 10px;
+  /*margin: 10px;*/
   float: left;
   border: 10px solid #fff;
   overflow: hidden;
@@ -519,6 +519,7 @@ textarea.form-control {
   cursor: default;
   background: #fff url(https://i.pinimg.com/736x/bd/3e/c7/bd3ec7991aedf84f28c034c50d3b8e05.jpg) no-repeat center center;
 }
+
 .view .mask,.view .content {
   width: 300px;
   height: 200px;

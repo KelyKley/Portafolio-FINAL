@@ -9,9 +9,9 @@ import Kely from "./pink.png";
 const Link = () => {
     return(
         <div>
-            <NavLink to="/">
-                <img src={Kely} class="titanic naked"/>
-            </NavLink>
+            <NavLink to="/" className="logo-eve">
+            <img src={Kely} class="titanic naked"/>
+        </NavLink>
         </div>
     );
 }
@@ -28,13 +28,14 @@ const Projects = () => {
                     </div>
                     <Link/>
                 </div>
+                
                 <div id="aboutme" className="row col-lg-9 col-md-9 col-sm-9 col-xs-9 aboutme-scroll" >
                     <div className="">
                             <div  className=" ">
                                 <p className="tab-about text-center">Mis proyectos</p> 
                                 <hr/>
                                 <div class="main"> 
-                                    <div class="view view-tenth">
+                                    <div class="view view-tenth col-md-4 col-xs-12">
                                         <img src="https://raw.githubusercontent.com/KelyKley/Portafolio-FINAL/master/public/img/reserva.png" />
                                         <div class="mask">
                                             <h2>RVSP</h2>
@@ -43,7 +44,7 @@ const Projects = () => {
                                             <a href="https://github.com/KelyKley/MVC-Invitacion" class="info">Code</a>
                                         </div>
                                     </div>
-                                    <div class="view view-tenth">
+                                    <div class="view view-tenth col-md-4 col-xs-12">
                                         <img src="https://raw.githubusercontent.com/KelyKley/Portafolio-FINAL/master/public/img/score.png" />
                                         <div class="mask">
                                             <h2>Score Board</h2>
@@ -52,7 +53,7 @@ const Projects = () => {
                                             <a href="https://github.com/KelyKley/Score-timer" class="info">Code</a>
                                         </div>
                                     </div>
-                                    <div class="view view-tenth">
+                                    <div class="view view-tenth col-md-4 col-xs-12">
                                         <img src="https://raw.githubusercontent.com/KelyKley/Portafolio-FINAL/master/public/img/car.png" />
                                         <div class="mask">
                                             <h2>Car</h2>
@@ -61,7 +62,7 @@ const Projects = () => {
                                             <a href="https://github.com/KelyKley/car-beta" class="info">Code</a>
                                         </div>
                                     </div>
-                                    <div class="view view-tenth">
+                                    <div class="view view-tenth col-md-4 col-xs-12">
                                         <img src="https://raw.githubusercontent.com/KelyKley/Portafolio-FINAL/master/public/img/course.png" />
                                         <div class="mask">
                                             <h2>Courses</h2>
@@ -70,7 +71,7 @@ const Projects = () => {
                                             <a href="https://github.com/KelyKley/React-app-course" class="info">Code</a>
                                         </div>
                                     </div>
-                                    <div class="view view-tenth">
+                                    <div class="view view-tenth col-md-4 col-xs-12">
                                         <img src="https://raw.githubusercontent.com/KelyKley/Portafolio-FINAL/master/public/img/lyft2.png" />
                                         <div class="mask">
                                             <h2>Lyft</h2>
@@ -79,7 +80,7 @@ const Projects = () => {
                                             <a href="https://github.com/KelyKley/Proyecto-Lyft" class="info">Code</a>
                                         </div>
                                     </div>
-                                    <div class="view view-tenth">
+                                    <div class="view view-tenth col-md-4 col-xs-12">
                                         <img src="https://raw.githubusercontent.com/KelyKley/Portafolio-FINAL/master/public/img/sushi.png" />
                                         <div class="mask">
                                             <h2>Shop Sushi</h2>
@@ -88,8 +89,8 @@ const Projects = () => {
                                             <a href="https://github.com/KelyKley/Japanesefood" class="info">Code</a>
                                         </div>
                                     </div>
-                                    <div class="view view-tenth">
-                                        <img src="https://raw.githubusercontent.com/KelyKley/Portafolio-FINAL/master/public/img/sushi.png" />
+                                    <div class="view view-tenth col-md-4 col-xs-12">
+                                        <img src="https://raw.githubusercontent.com/KelyKley/Portafolio-FINAL/master/public/img/game.png" />
                                         <div class="mask">
                                             <h2>Game Planet</h2>
                                             <p>HTML + CSS + JS + BOOTSTRAP</p>
@@ -97,8 +98,8 @@ const Projects = () => {
                                             <a href="https://github.com/KelyKley/game-planet" class="info">Code</a>
                                         </div>
                                     </div>
-                                    <div class="view view-tenth">
-                                        <img src="https://raw.githubusercontent.com/KelyKley/Portafolio-FINAL/master/public/img/sushi.png" />
+                                    <div class="view view-tenth col-md-4 col-xs-12">
+                                        <img src="https://raw.githubusercontent.com/KelyKley/Portafolio-FINAL/master/public/img/trivia.png" />
                                         <div class="mask">
                                             <h2>Trivia</h2>
                                             <p>HTML JS + CSS + BOOTSTRAP</p>
@@ -106,8 +107,8 @@ const Projects = () => {
                                             <a href="https://github.com/KelyKley/Quiz-Demo" class="info">Code</a>
                                         </div>
                                     </div>
-                                    <div class="view view-tenth">
-                                        <img src="https://raw.githubusercontent.com/KelyKley/Portafolio-FINAL/master/public/img/sushi.png" />
+                                    <div class="view view-tenth col-md-4 col-xs-12">
+                                        <img src="https://raw.githubusercontent.com/KelyKley/Portafolio-FINAL/master/public/img/encuentrame.png" />
                                         <div class="mask">
                                             <h2>Encuéntrame</h2>
                                             <p>HTML + JS + CSS + BOOTSTRAP</p>
@@ -115,8 +116,8 @@ const Projects = () => {
                                             <a href="https://github.com/kelykley/GeoLocalizaci-n-Ver2/" class="info">Code</a>
                                         </div>
                                     </div>
-                                    <div class="view view-tenth">
-                                        <img src="https://raw.githubusercontent.com/KelyKley/Portafolio-FINAL/master/public/img/sushi.png" />
+                                    <div class="view view-tenth col-md-4 col-xs-12">
+                                        <img src="https://raw.githubusercontent.com/KelyKley/Portafolio-FINAL/master/public/img/applove.png" />
                                         <div class="mask">
                                             <h2>App Love</h2>
                                             <p>HTML + JS + CSS + BOOTSTRAP</p>
@@ -124,8 +125,8 @@ const Projects = () => {
                                             <a href="https://github.com/KelyKley/Proyect-applove" class="info">Code</a>
                                         </div>
                                     </div>
-                                    <div class="view view-tenth">
-                                        <img src="https://raw.githubusercontent.com/KelyKley/Portafolio-FINAL/master/public/img/sushi.png" />
+                                    <div class="view view-tenth col-md-4 col-xs-12">
+                                        <img src="https://raw.githubusercontent.com/KelyKley/Portafolio-FINAL/master/public/img/freelancer.png" />
                                         <div class="mask">
                                             <h2>Freelancer</h2>
                                             <p>HTML + JS + CSS + BOOTSTRAP</p>
@@ -133,8 +134,8 @@ const Projects = () => {
                                             <a href="https://github.com/KelyKley/Proyect-freelancer" class="info">Code</a>
                                         </div>
                                     </div>
-                                    <div class="view view-tenth">
-                                        <img src="https://raw.githubusercontent.com/KelyKley/Portafolio-FINAL/master/public/img/sushi.png" />
+                                    <div class="view view-tenth col-md-4 col-xs-12">
+                                        <img src="https://raw.githubusercontent.com/KelyKley/Portafolio-FINAL/master/public/img/memory.png" />
                                         <div class="mask">
                                             <h2>Memory Game</h2>
                                             <p>HTML + JQUERY + CSS + BOOTSTRAP</p>
@@ -142,8 +143,8 @@ const Projects = () => {
                                             <a href="https://github.com/KelyKley/Game-memory" class="info">Code</a>
                                         </div>
                                     </div>
-                                    <div class="view view-tenth">
-                                        <img src="https://raw.githubusercontent.com/KelyKley/Portafolio-FINAL/master/public/img/sushi.png" />
+                                    <div class="view view-tenth col-md-4 col-xs-12">
+                                        <img src="https://raw.githubusercontent.com/KelyKley/Portafolio-FINAL/master/public/img/koala.png" />
                                         <div class="mask">
                                             <h2>Save the koala</h2>
                                             <p>HTML + JS + CSS + BOOTSTRAP</p>
@@ -151,8 +152,8 @@ const Projects = () => {
                                             <a href="https://github.com/KelyKley/save-the-koala-vol2" class="info">Code</a>
                                         </div>
                                     </div>
-                                    <div class="view view-tenth">
-                                        <img src="https://raw.githubusercontent.com/KelyKley/Portafolio-FINAL/master/public/img/sushi.png" />
+                                    <div class="view view-tenth col-md-4 col-xs-12">
+                                        <img src="https://raw.githubusercontent.com/KelyKley/Portafolio-FINAL/master/public/img/studio.png" />
                                         <div class="mask">
                                             <h2>Start Studio</h2>
                                             <p>HTML + JS + CSS + BOOTSTRAP</p>

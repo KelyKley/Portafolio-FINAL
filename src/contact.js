@@ -51,21 +51,22 @@ const FormContact = () => {
 
 const Contact = () => {
     return(
-        <div id="contact">
+        <div id="about">
             <div className="container dad" >
                 <div className="row son" >
-                    <div className="home col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <div className="grow vertical-tab-4">
-                                <p className="tab-title">4</p> 
-                                <p className="rotateContact rotate">Contact</p>
-                            </div>
+                    <div className="home">
+                        <div className="grow vertical-tab-4 col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                            <p className="rotatePro rotate rotateAbout text-justify">Contact</p>
+                        </div>
                     </div>
+                    <Link/>
                 </div>
-                <Link/>
-                <div id="aboutme" className="row" >
-                    <div className="col-lg-9 col-md-9 col-sm-9 col-xs-9">
-                            <div  className="grow">
-                            <p className="tab-about text-center">Contáctame </p> 
+                
+                <div id="aboutme" className="row col-lg-9 col-md-9 col-sm-9 col-xs-9 aboutme-scroll" >
+                    <div className="">
+                            <div  className="">
+                                <p className="tab-about text-center">Contáctame </p> 
+                                <hr/>
                                 <div>
                                     <FormContact/>
                                 </div>
