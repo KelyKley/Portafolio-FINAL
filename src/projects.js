@@ -10,7 +10,7 @@ const Link = () => {
     return(
         <div>
             <NavLink to="/" className="logo-eve">
-            <img src={Kely} class="titanic naked"/>
+            <img src={Kely} class="house naked"/>
         </NavLink>
         </div>
     );

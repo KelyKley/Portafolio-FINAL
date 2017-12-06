@@ -8,7 +8,7 @@ const Link = () => {
     return(
         <div>
             <NavLink to="/" className="logo-eve">
-            <img src={Kely} class="titanic naked"/>
+            <img src={Kely} class="house naked"/>
         </NavLink>
         </div>
     );
@@ -21,15 +21,17 @@ const About = () => {
                 <div className="row son" >
                     <div className="home ">
                             <div className="grow vertical-tab-2 col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                                <p className="rotateAbout text-justify">About</p>
+                                <p className="rotatePro rotate rotateAbout text-justify">About</p>
                             </div>
                     </div>
                     <Link/>
                 </div>
-                <div id="aboutme" className="row" >
-                    <div className="col-lg-9 col-md-9 col-sm-9 col-xs-9">
-                            <div  className="grow">
+
+                <div id="aboutme" className="row col-lg-9 col-md-9 col-sm-9 col-xs-9 aboutme-scroll" >
+                    <div className="">
+                            <div  className="">
                                 <p className="tab-about text-center">Acerca de mi</p> 
+                                <hr/>
                                 <div className="">
                                     <h1 className="text-center"><img className="img-circle img-responsive" src ="https://raw.githubusercontent.com/KelyKley/Portafolio-FINAL/master/public/img/me.png"/></h1>
                                 </div>
