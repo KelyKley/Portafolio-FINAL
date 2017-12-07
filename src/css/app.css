@@ -8,6 +8,10 @@
   padding: 0;
   /*outline: 1px solid red;*/ }
 
+.transi {
+  transition: width 0.5s;
+  -webkit-transition: width 0.5s;
+}
 .vertical-tab-1 {
   background: url("https://bufiles.blob.core.windows.net/co3613/vertical_menu/7.jpg") center center no-repeat; }
 
@@ -771,3 +775,22 @@ margin-top:25px;
 }
 /* Conatct end */
 /****************************************/
+
+
+
+@media screen and (min-width: 480px) {
+  
+}
+
+.atras {
+  font-size: 3em;
+  padding-left: 4vw;
+  color: #917f7f !important;
+  /* background: red; */
+  /* background-color: red; */
+  position: absolute;
+}
+
+.atras:hover {
+  color: white;
+}

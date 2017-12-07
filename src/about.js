@@ -14,6 +14,14 @@ const Link = () => {
     );
 }
 
+const Homebar = () => {
+    return(
+        <NavLink to="/" className="atras">
+            <i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
+        </NavLink>
+    );
+}
+
 const About = () => {
     return(
         <div id="about">
@@ -26,7 +34,7 @@ const About = () => {
                     </div>
                     <Link/>
                 </div>
-
+                <Homebar/>
                 <div id="aboutme" className="row col-lg-9 col-md-9 col-sm-9 col-xs-9 aboutme-scroll" >
                     <div className="">
                             <div  className="">

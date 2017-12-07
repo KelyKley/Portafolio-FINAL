@@ -14,11 +14,19 @@ const Link = () => {
     );
 }
 
+const Homebar = () => {
+    return(
+        <NavLink to="/" className="atras">
+            <i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
+        </NavLink>
+    );
+}
+
 const Skills = () => {
     return(
         <div id="about">
-            <div className="container dad" >
-                <div className="row son" >
+            <div className="transi container dad" >
+                <div className="transi row son" >
                     <div className="home ">
                             <div className="grow vertical-tab-1 col-lg-3 col-md-3 col-sm-3 col-xs-3">
                                 <p className="rotatePro rotate rotateAbout text-justify">Skills</p>
@@ -26,11 +34,11 @@ const Skills = () => {
                     </div>
                     <Link/>
                 </div>
-
-                <div id="aboutme" className="row col-lg-9 col-md-9 col-sm-9 col-xs-9 aboutme-scroll" >
+<Homebar/>
+                <div id="aboutme" className=" transi row col-lg-9 col-md-9 col-sm-9 col-xs-9 aboutme-scroll" >
                     <div className="">
-                            <div  className="">
-                                <p className="tab-about text-center">Mis habilidades</p>
+                            <div  className="transi">
+                                <p className="transi tab-about text-center">Mis habilidades</p>
                                 <hr/> 
                                 <div>
                                 <div id="skills">

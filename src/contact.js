@@ -14,17 +14,11 @@ const Link = () => {
     );
 }
 
-const redes = () => {
+const Homebar = () => {
     return(
-        <div>
-            <ul className="social">
-                                    <li className="github"><a href="https://github.com/KelyKley"><i className="fa fa-github fa-3x"></i></a></li>
-                                    <li className="twitter"><a href="#"><i className="fa fa-file-text-o fa-3x"></i></a></li>
-                                    <li className="google"><a href="#"><i className="fa fa-google-plus fa-3x"></i></a></li>
-                                    <li className="linkedin"><a href="#"><i className="fa fa-linkedin fa-3x"></i></a></li>
-                                    <li className="codepen"><a href="#"><i className="fa fa-codepen fa-3x"></i></a></li>
-                                </ul>
-        </div>
+        <NavLink to="/" className="atras">
+            <i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
+        </NavLink>
     );
 }
 
@@ -65,10 +59,10 @@ const FormContact = () => {
 
 const FormContacto = () => {
     return(
-        <div class=" animated fadeIn">
+        <div class="transi animated fadeIn">
     <div class="col-sm-12 col-xs-12 col-md-12" id="parent">
-    	<div class="">
-    	<iframe className="iframemap" width="100%" height="320px;" frameborder="0"  src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJaY32Qm3KWTkRuOnKfoIVZws&key=AIzaSyAf64FepFyUGZd3WFWhZzisswVx2K37RFY" allowfullscreen></iframe>
+    	<div class="transi">
+    	<iframe className="iframemap" width="100%" height="320px;" frameborder="0"  src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJuUb6-dZLQpER3VBWn5LkbKg&key=AIzaSyAR-r_zZLzEB6PGbMl7coYOd4ODLM3FPuk" allowfullscreen></iframe>
     	</div>
 
     	<div class="col-sm-6">
@@ -87,7 +81,7 @@ const FormContacto = () => {
 							<i class="fa fa-envelope" aria-hidden="true"></i>  kelyanamurohuamani@gmail.com
 							<br/>
 							<br/>
-							<i class="fa fa-linkedin-square" aria-hidden="true"></i>  <a href="www.linkedin.com/in/kelyanamuro/">www.linkedin.com/in/kelyanamuro/</a>
+							<i class="fa fa-linkedin-square" aria-hidden="true"></i>  <a target="_blank" href="www.linkedin.com/in/kelyanamuro/">www.linkedin.com/in/kelyanamuro/</a>
 						</p>
 					
 					</div>
@@ -161,7 +155,7 @@ const Contact = () => {
                     </div>
                     <Link/>
                 </div>
-                
+                <Homebar/>
                 <div id="aboutme" className="row col-lg-9 col-md-9 col-sm-9 col-xs-9 aboutme-scroll" >
                     <div className="">
                             <div  className="">
