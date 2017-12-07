@@ -34,33 +34,53 @@ const Skills = () => {
                                 <hr/> 
                                 <div>
                                 <div id="skills">
-  <ul>
-    <li>Web Design</li>
-    <div class="box">
-      <div id="one"></div>
-    </div>
-    <li>Technical Writing</li>
-    <div class="box">
-      <div id="two"></div>
-    </div>
-    <li>Illustration</li>
-    <div class="box">
-      <div id="three"></div>
-    </div>
-    <li>Adaptability</li>
-    <div class="box">
-      <div id="four"></div>
-    </div>
-    <li>Organization</li>
-    <div class="box">
-      <div id="five"></div>
-    </div>
-    <li>Photography</li>
-    <div class="box">
-      <div id="six"></div>
-    </div>
-  </ul>
-</div>
+                                    <ul>
+                                        <li>HTML5</li>
+                                        <div class="box">
+                                        <div id="one"></div>
+                                        </div>
+                                        <li>Javascript</li>
+                                        <div class="box">
+                                        <div id="two"></div>
+                                        </div>
+                                        <li>CSS3</li>
+                                        <div class="box">
+                                        <div id="three"></div>
+                                        </div>
+                                        <li>ReactJS</li>
+                                        <div class="box">
+                                        <div id="four"></div>
+                                        </div>
+                                        <li>JQuery</li>
+                                        <div class="box">
+                                        <div id="five"></div>
+                                        </div>
+                                        <li>Git</li>
+                                        <div class="box">
+                                        <div id="six"></div>
+                                        </div>
+                                        <li>GitHub</li>
+                                        <div class="box">
+                                        <div id="three"></div>
+                                        </div>
+                                        <li>Bootstrap</li>
+                                        <div class="box">
+                                        <div id="seven"></div>
+                                        </div>
+                                        <li>Firebase</li>
+                                        <div class="box">
+                                        <div id="eight"></div>
+                                        </div>
+                                        <li>SASS</li>
+                                        <div class="box">
+                                        <div id="nine"></div>
+                                        </div>
+                                        <li>Wordpress</li>
+                                        <div class="box">
+                                        <div id="four"></div>
+                                        </div>
+                                    </ul>
+                                    </div>
                                 </div>
                             </div>
                     </div>

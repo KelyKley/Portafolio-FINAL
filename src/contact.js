@@ -14,6 +14,20 @@ const Link = () => {
     );
 }
 
+const redes = () => {
+    return(
+        <div>
+            <ul className="social">
+                                    <li className="github"><a href="https://github.com/KelyKley"><i className="fa fa-github fa-3x"></i></a></li>
+                                    <li className="twitter"><a href="#"><i className="fa fa-file-text-o fa-3x"></i></a></li>
+                                    <li className="google"><a href="#"><i className="fa fa-google-plus fa-3x"></i></a></li>
+                                    <li className="linkedin"><a href="#"><i className="fa fa-linkedin fa-3x"></i></a></li>
+                                    <li className="codepen"><a href="#"><i className="fa fa-codepen fa-3x"></i></a></li>
+                                </ul>
+        </div>
+    );
+}
+
 const FormContact = () => {
     return(
         <div id="contact">
@@ -51,28 +65,87 @@ const FormContact = () => {
 
 const FormContacto = () => {
     return(
-        <div class="card">
-        <div class="photo"></div>
-        <div class="banner"></div>
-        <ul>
-            <li><b>John Doe</b></li>
-            <li>Web Developer</li>
+        <div class=" animated fadeIn">
+    <div class="col-sm-12 col-xs-12 col-md-12" id="parent">
+    	<div class="">
+    	<iframe className="iframemap" width="100%" height="320px;" frameborder="0"  src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJaY32Qm3KWTkRuOnKfoIVZws&key=AIzaSyAf64FepFyUGZd3WFWhZzisswVx2K37RFY" allowfullscreen></iframe>
+    	</div>
 
-        </ul>
-        <button class="contact" id="main-button">click to get in touch</button>
-        <div class="social-media-banner">
-            <a href=""><i class="fa fa-twitter"></i></a>
-            <a href=""><i class="fa fa-facebook"></i></a>
-            <a href=""><i class="fa fa-instagram"></i></a>
-            <a href=""><i class="fa fa-linkedin"></i></a>
-        </div>
-      <form class="email-form">
-            <input id="name" type="text" placeholder="name"/>
-            <input id="email" type="text" placeholder="email"/>
-            <textarea id="comment" type="text" placeholder="comment"></textarea>
-            <button class="contact">send</button>
-      </form>
-      </div>
+    	<div class="col-sm-6">
+    		
+    	</div>
+    </div>
+
+  <div class=" second-portion">
+    	<div class="col-xs-12 col-sm-6 col-lg-4">
+			<div class="boxed">							
+				<div class="icon">
+					<div class="image"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+					<div class="info">
+						<h3 class="title">EMAIL & LINKEDIN</h3>
+						<p>
+							<i class="fa fa-envelope" aria-hidden="true"></i>  kelyanamurohuamani@gmail.com
+							<br/>
+							<br/>
+							<i class="fa fa-linkedin-square" aria-hidden="true"></i>  <a href="www.linkedin.com/in/kelyanamuro/">www.linkedin.com/in/kelyanamuro/</a>
+						</p>
+					
+					</div>
+				</div>
+				<div class="space"></div>
+			</div> 
+		</div>
+			
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+			<div class="boxed">							
+				<div class="icon">
+					<div class="image"><i class="fa fa-mobile" aria-hidden="true"></i></div>
+					<div class="info">
+						<h3 class="title">CONTACTO</h3>
+    					<p>
+							<i class="fa fa-mobile" aria-hidden="true"></i>  (+51) 958604203
+							<br/>
+							<br/>
+							<i class="fa fa-whatsapp" aria-hidden="true"></i>  (+51) 958604203 
+						</p>
+					</div>
+				</div>
+				<div class="space"></div>
+			</div> 
+		</div>
+			
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+			<div class="boxed">							
+				<div class="icon">
+					<div class="image"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+					<div class="info">
+						<h3 class="title">DIRECCIÓN</h3>
+    					<p>
+							 <i class="fa fa-map-marker" aria-hidden="true"></i>  Alto Selva Alegre Arequipa- Perú
+						</p>
+					</div>
+				</div>
+				<div class="space"></div>
+			</div> 
+		</div>		   
+        <div class="col-xs-0 col-sm-3 col-lg-3"></div>
+        <div class="col-xs-12 col-sm-6 col-lg-6">
+			<div class="boxed">							
+				<div class="icon">
+					<div class="image"><i class="fa fa-folder-open" aria-hidden="true"></i></div>
+					<div class="info">
+						<h3 class="title">CURRICULUM VITAE</h3>
+    					<p>
+							 <i class="fa fa-download" aria-hidden="true"></i>  <a href="https://github.com/KelyKley/Portafolio-FINAL/raw/master/public/cv/Kely-CV%20(1).pdf">Kely Añamuro</a>
+						</p>
+					</div>
+				</div>
+				<div class="space"></div>
+			</div> 
+		</div>	 
+</div>
+
+</div>
     );
 }
 
@@ -93,17 +166,12 @@ const Contact = () => {
                     <div className="">
                             <div  className="">
                                 <p className="tab-about text-center">Contáctame </p> 
+                                <p className="text-justify introduction">Si te han interesado mis proyectos.</p> 
                                 <hr/>
                                 <div>
                                     <FormContacto/>
                                 </div>
-                                <ul className="social">
-                                    <li className="github"><a href="https://github.com/KelyKley"><i className="fa fa-github fa-3x"></i></a></li>
-                                    <li className="twitter"><a href="#"><i className="fa fa-file-text-o fa-3x"></i></a></li>
-                                    <li className="google"><a href="#"><i className="fa fa-google-plus fa-3x"></i></a></li>
-                                    <li className="linkedin"><a href="#"><i className="fa fa-linkedin fa-3x"></i></a></li>
-                                    <li className="codepen"><a href="#"><i className="fa fa-codepen fa-3x"></i></a></li>
-                                </ul>
+                                
                             </div>
                     </div>
                 </div>
